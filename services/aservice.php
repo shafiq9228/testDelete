@@ -2,6 +2,6 @@
 
 $arr = array("name"=>"shafiq", "age"=>"20");
 
-echo $arr;
+echo json_encode($arr);
 
 ?>
