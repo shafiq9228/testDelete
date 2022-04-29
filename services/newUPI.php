@@ -80,7 +80,7 @@ $request = [
 
   $apostData = json_encode($request); 
 // print_r("<<========apostData=========>>"); //--
- print_r($apostData); //--
+// print_r($apostData); //--
 $httpUrl = "https://apibankingone.icicibank.com/api/v1/composite-payment";
 //print_r("<<========httpUrl=========>>");
 // print_r($httpUrl); //--
