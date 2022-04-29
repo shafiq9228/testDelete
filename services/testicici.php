@@ -79,7 +79,7 @@ $request = [
 
   $apostData = json_encode($request); 
 // print_r("<<========apostData=========>>"); //--
-// print_r($apostData); //--
+ print_r($apostData); //--
 $httpUrl = "https://apibankingone.icicibank.com/api/v1/composite-payment";
 //print_r("<<========httpUrl=========>>");
 // print_r($httpUrl); //--
@@ -93,9 +93,9 @@ $headers = array(
     "x-priority:1000"
 );
 // print_r("<<========headers=========>>"); //--
-print_r(json_encode($headers));
+//print_r(json_encode($headers));
 
-echo "1";
+//echo "1";
 // $file = 'logFiles.txt';
 
 
