@@ -93,9 +93,7 @@ $headers = array(
     "x-priority:1000"
 );
 // print_r("<<========headers=========>>"); //--
-print_r(json_encode($headers));
-
-echo "1";
+//print_r(json_encode($headers));
 // $file = 'logFiles.txt';
 
 
@@ -109,7 +107,7 @@ echo "1";
 // file_put_contents($file, $log, FILE_APPEND | LOCK_EX);
 
 
-/*
+
 $acurl = curl_init();
 curl_setopt_array($acurl, array(
     CURLOPT_URL => $httpUrl,
@@ -166,5 +164,5 @@ $list1 = array("aPostdata"=>json_decode($a1),"aPost2"=>json_decode($apostData), 
 echo json_encode($list1);
 }
 
-*/
+
 ?>
