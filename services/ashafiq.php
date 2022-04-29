@@ -15,6 +15,8 @@
        $response = curl_exec($ch);
        if(!response){
                die("Error: "" . curl_error($ch) . "" - Code: " . curl_errno($ch));
+         } else {
+             echo $response;
          }
  
        curl_close($crl);
