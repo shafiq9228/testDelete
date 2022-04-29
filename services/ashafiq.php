@@ -13,9 +13,11 @@
        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
  
        $response = curl_exec($ch);
-       if(!response){
-               die("Error: "" . curl_error($ch) . "" - Code: " . curl_errno($ch));
-         } else {
+
+       if (curl_errno($curl))
+        {
+            echo 'cURL error: '.curl_error($curl);
+        } else {
              echo $response;
          }
  
