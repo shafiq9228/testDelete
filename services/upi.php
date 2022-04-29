@@ -1,7 +1,7 @@
 <?php
 
 $data = [
-    "payerVa" => 'patel.gfg@ybl',  // production pe user's vpa
+    "payerVa" => 'patel.shafiq1@ybl',  // production pe user's vpa
     "amount" => '10.00', // shoul be always 2 decimal
     "note" => 'testing',
     "collectByDate" => date('d/m/Y H:i A', strtotime('+1 day')),//now + 15min,
