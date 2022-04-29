@@ -1,4 +1,5 @@
 <?php
+echo "1";
 $url = "https://apibankingone.icicibank.com/api/v1/composite-payment";   
 $ch = curl_init();   
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);   
